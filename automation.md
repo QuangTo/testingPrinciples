@@ -11,3 +11,6 @@ Good test cases, good coverage on low level ( integration ) or on top level like
 
 ### Easy to write, run and maintain
 
+## Technical 
+Test real-user visible behavior
+Test should isolate and run without blocked and less dependen on other
