@@ -23,3 +23,4 @@ The Page Object Model (POM) and Component Object Model (COM) are both design pat
 - **Component Object Model (COM)** is suited to complex applications where UI elements are reused across pages, allowing for modularity and better maintainability.
 
 **Ti
+
