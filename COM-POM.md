@@ -1,9 +1,7 @@
-COM: Components Object Model 
-POM: Page Object Model
-
+## Description
 The Page Object Model (POM) and Component Object Model (COM) are both design patterns commonly used in test automation. They serve similar goals in organizing code for better reusability, maintainability, and readability but differ in terms of how they structure and manage UI elements.
 
-# Comparison: Page Object Model (POM) vs. Component Object Model (COM)
+### Comparison: Page Object Model (POM) vs. Component Object Model (COM)
 
 | Aspect               | Page Object Model (POM)                                                                                     | Component Object Model (COM)                                                                                               |
 |----------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -17,10 +15,22 @@ The Page Object Model (POM) and Component Object Model (COM) are both design pat
 
 ---
 
-## Summary
+### Summary
 
 - **Page Object Model (POM)** is ideal for smaller applications with unique page layouts and minimal component reuse.
 - **Component Object Model (COM)** is suited to complex applications where UI elements are reused across pages, allowing for modularity and better maintainability.
 
-**Ti
+
+### Pros & Cons
+
+
+| Pattern | Pros                                                                                           | Cons                                                                                           |
+|---------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **POM** | - Simple structure, easier setup. <br> - Best for small applications.                         | - Low reusability of elements. <br> - More duplication for shared elements across pages.       |
+| **COM** | - Highly reusable components. <br> - Easier to maintain complex applications.                 | - Initial setup requires more code. <br> - Can be overkill for smaller applications.           |
+
+
+
+## Code sample
+
 
