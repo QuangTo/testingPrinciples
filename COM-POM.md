@@ -32,5 +32,45 @@ The Page Object Model (POM) and Component Object Model (COM) are both design pat
 
 
 ## Code sample
+Traditional POM 
+```
+import { Page, Locator, expect } from "@playwright/test";
+export class Footer {
+  readonly page: Page;
+  readonly privacyPolicy: Locator;
 
+  constructor(page: Page) {
+    this.page = page;
+    this.privacyPolicy = page.getByTestId("privacyPolicy");
+  }
+  async clickPrivacyLink(): Promise<void> {
+    expect(this.privacyPolicy).toBeVisible();
+    expect(this.privacyPolicy).toHaveAttribute("href");
+    await this.privacyPolicy.click();
+  }
+}
+```
+Usage 
+```
+let footer: Footer;
+footer = new Footer(page);
+await footer.clickPrivacyLink();
+```
+New COM 
+```
+import { Page, expect } from "@playwright/test";
+
+export const Footer = {
+  async clickPrivacyLink(page: Page, policyId: string = "privacyPolicy") {
+    const privacyLink = page.getByTestId(policyId);
+    expect(privacyLink).toBeVisible();
+    expect(privacyLink).toHaveAttribute("href");
+    await privacyLink.click();
+  },
+};
+```
+Usage 
+```
+await Footer.clickPrivacyLink(page)
+```
 
