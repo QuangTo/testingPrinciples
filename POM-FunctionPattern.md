@@ -67,3 +67,34 @@ Usage
 ```
 await Footer.clickPrivacyLink(page)
 ```
+
+## Centralize Code Locator
+
+```
+
+export const loginLocators = {
+    username: '[data-testid="username"]',
+    password: '[data-testid="password"]',
+    submitButton: '[data-testid="login-id"]',
+};
+
+// Using Login data
+
+import { loginLocators } from './locators.js';
+
+export async function enterUsername(page, username) {
+    await page.fill(loginLocators.username, username);
+}
+
+export async function login(page, username, password) {
+    await enterUsername(page, username);
+    await page.fill(loginLocators.password, password);
+    await page.click(loginLocators.submitButton);
+}
+
+// Usage in a test
+await enterUsername(page, 'testUser');
+await login(page, 'testUser', 'password123');
+```
+
+### Centralize and use test-data
