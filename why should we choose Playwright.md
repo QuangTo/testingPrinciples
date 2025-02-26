@@ -1,4 +1,3 @@
-# Highlight best thing of playwright - comparison with Cypress
 
 # Playwright vs Cypress Comparison
 
@@ -72,7 +71,8 @@
    - Intuitive API
    - Great for beginners
   
-.... 
-
+ 
+<img width="1358" alt="image" src="https://github.com/user-attachments/assets/65b2a849-6af1-45df-88fe-e060199205ef" />
+Source: https://npmtrends.com/cypress-vs-playwright
 
 
