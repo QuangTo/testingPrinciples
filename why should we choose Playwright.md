@@ -75,4 +75,5 @@
 <img width="1358" alt="image" src="https://github.com/user-attachments/assets/65b2a849-6af1-45df-88fe-e060199205ef" />
 Source: https://npmtrends.com/cypress-vs-playwright
 
-
+Other Playwright articles 
+https://adequatica.medium.com/hidden-gems-of-playwright-68fcf8896bcb 
