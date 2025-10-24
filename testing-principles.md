@@ -3,7 +3,23 @@
 ## General 
 
 ### Quality is everyone's responsibility
-Quality in testing is everyone’s responsibility. We need to break free of associating team members with a particular thing. We need to stop thinking in terms of “Dev Complete” and “Test Complete”. There is one team, and together that team can build in quality. Build in quality everywhere and every time that you can. Break down barriers, facilitate healthy relationships, and encourage communication. Be agile and make a mindset of quality the norm for your team.
+Quality in testing is a shared responsibility across the entire team.
+We must move away from labeling work as “Dev Complete” or “Test Complete” — there is only one team, collectively accountable for delivering a high-quality product.
+
+Quality should be built in, not inspected later. It starts from requirement discussions and continues through development, testing, and production.
+Break down silos, promote open communication, and build trust across roles — Developers, QA, Product, and DevOps — all contribute to the same goal: a reliable, secure, and valuable product for users.
+
+Adopt an agile, continuous quality mindset: prevent issues early, automate smartly, and ensure every release increases confidence and user trust.
+Quality isn’t a phase — it’s how we work, care, and deliver together.
+
+| ✅ **Good Things (Shared Quality Mindset)** | ❌ **Bad Things (Role-Based Thinking)** |
+|---------------------------------------------|----------------------------------------|
+| We build quality together — one team, one goal. | “Dev Complete” / “Test Complete” divides us and slows progress. |
+| Everyone cares — Dev, QA, PO, PM all protect user trust. | “That’s not my job” leads to blame, confusion, and waste. |
+| Faster, smoother releases — fewer bugs, more confidence. | Late testing causes chaos, stress, and rework. |
+| Open communication — problems solved before they grow. | Silence between roles means surprises at the end. |
+| Shared success — we celebrate quality as a team win. | Finger-pointing kills motivation and trust. |
+
 
 ### Zero known bugs approach
 A Zero Known Bug Policy is simple concept. All bugs take priority over all new feature development or improvements. That’s it. There is nothing more.
